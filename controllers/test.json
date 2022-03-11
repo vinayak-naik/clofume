@@ -1,0 +1,43 @@
+{
+    "outletName": "muse by muskan",
+    "location": {
+        " Latitude": "100",
+        "Longitude": "199"
+    },
+    "address": {
+        "Street": "pragathi layout",
+        "area": "Doddanekundi",
+        "Floor": "2",
+        "Pincode": "560037",
+        "State": "karnataka",
+        "City": "bangalore",
+        "Landmark": "apollo medicals"
+    },
+    "ownerName": "shreyas",
+    "phoneNo": "8918383289",
+    "email": "shreyas@gmail.com",
+    "Services": {
+        "dressmaking": "true",
+        "sareeKuch": "true",
+        "sareefalls": "false"
+    },
+    "Experiencedin": {
+        "Lehenga": "true",
+        "Anarkali": "false"
+    },
+    "Description": " lorem ipsum sdj skye ",
+    "specializedIn": {
+        "men": true,
+        "women": false
+    },
+    "coverImage": "image",
+    "logo": "image",
+    "Timings": [
+        {
+            "Mon": {
+                "Open": "2:00",
+                "Close": "3:00"
+            }
+        }
+    ]
+}

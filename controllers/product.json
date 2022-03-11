@@ -1,0 +1,17 @@
+{
+    "type": "customProduct",
+	"vendorId": "1234567890",
+    "categories": {
+        "gender": "male",
+        "typeOfWear": "topWear",
+        "wearCategory": "shirts"
+    },
+    "name": "Shirt Design Brow ",
+    "longDesc": "Beautiful Shirt which is blue color",
+    "shortDesc": "Brown Shirt",
+    "basePrice": "250",
+    "url": [
+        "url image upload"
+    ],
+    "tagName": "meow"
+}
