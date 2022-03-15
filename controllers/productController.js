@@ -14,3 +14,25 @@ exports.add = async (req, res, next) => {
   }
 }; 
 
+exports.getProducts = async (req, res, next) => {
+  const { limit, skip, search } = req.query;
+  const numLimit=Number(limit)
+  const numSkip=Number(skip)
+  try {
+    let result
+    let find
+    if (search) {
+      find=await Product.find({"email": {$regex: '^' + search, $options: 'i'}})
+      result=await Product.find({"email": {$regex: '^' + search, $options: 'i'}}).limit(numLimit).skip(numLimit*numSkip)
+    } else {
+      
+      find=await Product.find({})
+      result=await Product.find({}).limit(numLimit).skip(numLimit*numSkip)
+    }
+    
+    return res.status(200).json({length:find.length,result});
+  } catch (error) {
+    return res.status(500).json(error);
+  }
+};
+

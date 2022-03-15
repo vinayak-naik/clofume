@@ -14,10 +14,11 @@
         "Landmark": "apollo medicals"
     },
     "ownerName": "shreyas",
-    "phoneNo": "8918383289",
+    "contactNo": "8918383289",
     "email": "shreyas@gmail.com",
+    "password": "Test@1234",
     "Services": {
-        "dressmaking": "true",
+        "dressMaking": "true",
         "sareeKuch": "true",
         "sareefalls": "false"
     },

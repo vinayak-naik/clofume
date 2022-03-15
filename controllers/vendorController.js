@@ -8,7 +8,7 @@ exports.register = async (req, res, next) => {
   try {
     const existingvendor= await Vendor.findOne({email})
     if(existingvendor) return res.status(404).send("vendor-email already exists");
-    const vendorObj = { firstName, lastName, email, role: "vendor" };
+    const vendorObj = req.body;
     const hashedPwd = await hash(password, 12);
     vendorObj.password = hashedPwd;
     const vendor = await new Vendor(vendorObj).save();

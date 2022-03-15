@@ -4,11 +4,11 @@ const { sign } = require("jsonwebtoken");
 const User = require("../models/userModel");
 
 exports.register = async (req, res, next) => {
-  const { firstName, lastName, email, password } = req.body;
+  const { firstName, lastName, contactNo, email, password } = req.body;
   try {
     const existingUser= await User.findOne({email})
     if(existingUser) return res.status(404).send("User-email already exists");
-    const userObj = { firstName, lastName, email, role: "user" };
+    const userObj = { firstName, lastName, contactNo, email, role: "user" };
     const hashedPwd = await hash(password, 12);
     userObj.password = hashedPwd;
     const user = await new User(userObj).save();
