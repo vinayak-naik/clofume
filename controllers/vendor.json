@@ -1,44 +1,43 @@
 {
-    "outletName": "muse by muskan",
-    "location": {
-        " Latitude": "100",
-        "Longitude": "199"
-    },
-    "address": {
-        "Street": "pragathi layout",
-        "area": "Doddanekundi",
-        "Floor": "2",
-        "Pincode": "560037",
-        "State": "karnataka",
-        "City": "bangalore",
-        "Landmark": "apollo medicals"
-    },
-    "ownerName": "shreyas",
-    "contactNo": "8918383289",
     "email": "shreyas@gmail.com",
     "password": "Test@1234",
-    "Services": {
-        "dressMaking": "true",
-        "sareeKuch": "true",
-        "sareefalls": "false"
+    "contactNo": "8918383289",
+    "ownerName": "shreyas",
+    "outletName": "muse by muskan",
+    "description": " lorem ipsum sdj skye ",
+    "coverImage": "image",
+    "logo": "image",
+    "location": {
+        " latitude": "100",
+        "longitude": "199"
     },
-    "Experiencedin": {
-        "Lehenga": "true",
-        "Anarkali": "false"
+    "address": {
+        "street": "pragathi layout",
+        "area": "Doddanekundi",
+        "floor": "2",
+        "pincode": "560037",
+        "state": "karnataka",
+        "city": "bangalore",
+        "landmark": "apollo medicals"
     },
-    "Description": " lorem ipsum sdj skye ",
+    "services": {
+        "dressMaking": true,
+        "sareeKuch": true,
+        "sareefalls": false
+    },
+    "experiencedin": {
+        "lehenga": true,
+        "anarkali": false
+    },
     "specializedIn": {
         "men": true,
         "women": false
     },
-    "coverImage": "image",
-    "logo": "image",
-    "Timings": [
+    "timings": [
         {
-            "Mon": {
+                "day":"mon",
                 "Open": "2:00",
                 "Close": "3:00"
-            }
         }
     ]
 }

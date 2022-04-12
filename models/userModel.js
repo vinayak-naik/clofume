@@ -14,6 +14,7 @@ const userSchema = new mongoose.Schema({
   contactNo: {
     type: String,
     required: [true, "ContactNo is required"],
+    unique: true,
   },
   email: {
     type: String,
